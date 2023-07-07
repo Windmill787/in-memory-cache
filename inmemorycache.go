@@ -5,7 +5,7 @@ type Cache struct {
 }
 
 func NewCache() *Cache {
-	return &Cache{}
+	return &Cache{storage: make(map[string]interface{})}
 }
 
 func (c *Cache) Set(key string, value interface{}) {
