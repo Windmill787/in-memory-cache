@@ -1,3 +1,3 @@
-module github.com/Windmill787/in-memory-cache/v1.0.0
+module github.com/Windmill787/in-memory-cache
 
 go 1.20
